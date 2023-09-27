@@ -1,28 +1,38 @@
 @font-face {
 	font-family: Futura PT;
 	font-weight: 300;
-	src: url(./fonts/FuturaCyrillicLight.ttf);
+	src: url(../fonts/FuturaPT-Light.ttf);
 }
 
 @font-face {
 	font-family: Futura PT;
 	font-weight: 400;
-	src: url(./fonts/FuturaCyrillicBook.ttf);
+	src: url(../fonts/FuturaPT-Book.ttf);
+}
+
+@font-face {
+	font-family: Futura PT;
+	font-weight: 500;
+	src: url(../fonts/FuturaPT-Medium.ttf);
 }
 
 @font-face {
 	font-family: Futura PT;
 	font-weight: 700;
-	src: url(./fonts/FuturaCyrillicDemi.ttf);
+	src: url(../fonts/FuturaPT-Bold.ttf);
 }
 
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: Futura PT;
+	font-family: Futura PT, 'sans-serif';
 }
 
 body {
 	background-color: #f6f6f6;
+}
+
+p {
+	font-family: Futura PT;
 }
