@@ -1,0 +1,15 @@
+.topbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #fff;
+}
+
+.topbar__content {
+}
+
+@media screen and (min-width: 768px) {
+	.topbar {
+		height: 120px;
+	}
+}
