@@ -22,6 +22,16 @@
 	src: url(../fonts/FuturaPT-Bold.ttf);
 }
 
+:root {
+	--primary-bg: #f6f6f6;
+	--white: #ffffff;
+	--primary-text: #111;
+	--black: '#000';
+	--green: #30ab4c;
+	--red: #ad4844;
+	--gray: '#D9D9D9';
+}
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -30,9 +40,42 @@
 }
 
 body {
-	background-color: #f6f6f6;
+	background-color: var(--primary-bg);
+	color: var(--primary-text);
 }
 
-p {
-	font-family: Futura PT;
+button {
+	outline: none;
+	border: none;
+	padding: 10px 40px;
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--primary-bg);
+}
+
+img {
+	width: fit-content;
+	max-width: 100%;
+}
+
+.section-title {
+	font-weight: 500;
+	font-size: 48px;
+	background: linear-gradient(
+		90deg,
+		#111 -8.85%,
+		#b1b1b1 58.84%,
+		#696969 91.39%,
+		#b1b1b1 116.12%
+	);
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.title-line {
+	height: 1px;
+	width: 126px;
+	background-color: var(--primary-text);
 }
