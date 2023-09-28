@@ -61,6 +61,7 @@ img {
 .section-title {
 	font-weight: 500;
 	font-size: 48px;
+	text-align: center;
 	background: linear-gradient(
 		90deg,
 		#111 -8.85%,
