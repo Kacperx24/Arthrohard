@@ -19,11 +19,21 @@
 	display: flex;
 	gap: 30px;
 	font-weight: 500;
+	position: relative;
 }
 
 .topbar__item {
 	text-transform: uppercase;
 	font-size: var(--menu-item-font-size);
+}
+
+.topbar__highlight {
+	position: absolute;
+	height: 1px;
+	background-color: var(--primary-text);
+	top: calc(100% + 10px);
+	opacity: 0;
+	transition: 0.2s;
 }
 
 .topbar__item--active {

@@ -107,6 +107,7 @@
 .composition__dog-image img {
 	position: relative;
 	z-index: 5;
+	display: block;
 }
 
 .composition__dog-vector-right {
