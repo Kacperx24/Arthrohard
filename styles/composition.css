@@ -1,0 +1,156 @@
+.composition {
+	padding: 50px 20px 0px;
+	background-color: var(--white);
+}
+
+.composition__title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 100px;
+}
+
+.composition__intro {
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.composition__column {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	justify-content: space-between;
+}
+
+.composition__ingredient {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	height: 1/3;
+}
+.composition__circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: var(--gray);
+}
+
+.composition__ingredient:hover .composition__underline {
+	opacity: 1;
+}
+
+.composition__subtitle {
+	position: relative;
+}
+
+.composition__underline {
+	position: absolute;
+	top: calc(100% + 10px);
+	width: 100%;
+	left: 0;
+	height: 1px;
+	opacity: 0;
+	background-color: var(--primary-text);
+	transition: 0.2s;
+}
+
+.composition__description {
+	text-align: center;
+	max-width: 500px;
+}
+
+.composition__image-wrapper {
+	position: relative;
+	margin: 20px 20px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.composition__image {
+	position: relative;
+	max-width: 500px;
+	z-index: 4;
+}
+
+.composition__cta {
+	position: absolute;
+	bottom: 5%;
+	background-color: var(--red);
+}
+
+.composition__vector-right {
+	position: absolute;
+	top: 30%;
+	right: 13%;
+	transform: rotate(6deg);
+}
+
+.composition__vector-left {
+	position: absolute;
+	bottom: 23%;
+	left: 8%;
+}
+
+.composition__dog-image {
+	position: relative;
+	margin: 80px auto;
+	width: fit-content;
+	overflow: hidden;
+}
+
+.composition__dog-image img {
+	position: relative;
+	z-index: 5;
+}
+
+.composition__dog-vector-right {
+	bottom: -12%;
+	right: 7%;
+	position: absolute;
+	z-index: 1;
+}
+.composition__dog-vector-left {
+	position: absolute;
+	bottom: -22%;
+	left: 16%;
+	transform: rotate(-35deg);
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1440px) {
+	.composition__intro {
+		margin-bottom: 80px;
+	}
+
+	.composition__subtitle {
+		margin-bottom: 20px;
+	}
+	.composition__underline {
+		top: calc(100% + 20px);
+	}
+	.composition__description {
+		max-width: 400px;
+	}
+	.composition__content {
+		display: flex;
+		justify-content: center;
+		padding: 0 5vw;
+	}
+	.composition__image-wrapper {
+		margin: 0;
+		flex-grow: 1;
+		max-width: 40vw;
+		margin-top: -25px;
+	}
+	.composition__image {
+		max-width: 35vw;
+	}
+}

@@ -18,12 +18,12 @@
 .topbar__items {
 	display: flex;
 	gap: 30px;
-	font-size: var(--menu-item-font-size);
 	font-weight: 500;
 }
 
 .topbar__item {
 	text-transform: uppercase;
+	font-size: var(--menu-item-font-size);
 }
 
 .topbar__item--active {

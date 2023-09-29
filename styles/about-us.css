@@ -39,7 +39,6 @@
 }
 
 .about-us__section-text {
-	font-size: var(--description-font-size);
 	margin-top: 30px;
 	max-width: 400px;
 }

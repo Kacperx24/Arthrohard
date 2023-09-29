@@ -25,6 +25,7 @@
 	position: absolute;
 	bottom: 10%;
 	left: 4%;
+	transform: scale(2);
 }
 
 .product__bottles {
@@ -59,7 +60,6 @@
 
 .product__description {
 	margin: 20px 0;
-	font-size: var(--description-font-size);
 	max-width: 650px;
 }
 
