@@ -26,7 +26,6 @@ const checkCurrentSection = () => {
 			index = i
 		}
 	})
-	console.log(index)
 	if (index >= 0) {
 		highlightCurrentSection(index)
 	} else {

@@ -81,6 +81,16 @@ img {
 	background-color: var(--primary-text);
 }
 
+.global-vector-left {
+	display: none;
+}
+.global-vector-right {
+	display: none;
+}
+.global-mini-vector-right {
+	display: none;
+}
+
 h1 {
 	font-size: 50px;
 }
@@ -137,5 +147,22 @@ h3 {
 	}
 	:root {
 		--description-font-size: 20px;
+	}
+	.global-vector-left {
+		display: block;
+		position: absolute;
+		top: 1040px;
+	}
+	.global-vector-right {
+		display: block;
+		position: absolute;
+		top: 900px;
+		right: 0;
+	}
+	.global-mini-vector-right {
+		display: block;
+		position: absolute;
+		top: 660px;
+		right: 0;
 	}
 }
