@@ -36,9 +36,6 @@
 	transition: 0.2s;
 }
 
-.topbar__item--active {
-}
-
 @media screen and (min-width: 960px) {
 	.topbar {
 		height: 120px;
