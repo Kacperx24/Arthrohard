@@ -43,8 +43,6 @@ const fetchData = async (pageNumber, pageSize) => {
 			const products = data?.data
 
 			products.forEach(({ id, name, value }) => {
-				console.log(productsList.children.length, maxAmountOfData)
-
 				if (productsList.children.length >= maxAmountOfData) return
 
 				const productItem = document.createElement('div')
